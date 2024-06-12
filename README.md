@@ -2,7 +2,7 @@
 
 - For https://github.com/apache/shardingsphere/pull/30031 and https://github.com/graalvm/native-build-tools/issues/602 .
 
-- Execute the following command on the Ubuntu 22.04.3 instance with `SDKMAN!` installed.
+- Execute the following command on the Ubuntu 22.04.4 instance with `SDKMAN!` installed.
 
 ```shell
 sdk install java 22.0.1-graalce
