@@ -1,12 +1,13 @@
 # junit5-native-image-annotation-test
 
-- For https://github.com/apache/shardingsphere/pull/30031 .
+- For https://github.com/apache/shardingsphere/pull/30031 and https://github.com/graalvm/native-build-tools/issues/602 .
 
 - Execute the following command on the Ubuntu 22.04.3 instance with `SDKMAN!` installed.
 
 ```shell
 sdk install java 22.0.1-graalce
 sdk use java 22.0.1-graalce
+sudo apt-get install build-essential libz-dev zlib1g-dev -y
 
 git clone git@github.com:linghengqian/junit-v5110-test.git
 cd ./junit-v5110-test/
